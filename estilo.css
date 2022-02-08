@@ -1,0 +1,37 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.main {
+    background-color: #1AA3D9;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+#title {
+    font-family: BEBAS;
+    font-size: 65px;
+    font-weight: bold;
+    color:#F249B7;
+}
+
+.menu-sm {
+    margin: 20px;
+    color: #F2CB05;
+}
+
+#footer-sm {
+    background-color: #1AA3D9;
+    font-family: ROBOTO;
+    font-weight: bold;
+    margin-top: 838px;
+    text-align: center;
+    
+}
