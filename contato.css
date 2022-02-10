@@ -32,10 +32,14 @@ body{
 }
 
 .icons {
-    width: 50px;
+    width: 80px;
     height: 80px;
     display: flex;
     flex-direction: column;
+}
+
+.icons:hover{
+    width: 80px;
 }
 
 
@@ -68,6 +72,21 @@ body{
     font-family: ROBOTO;
     font-weight: bold;
     text-align: center;
-    height:30px;
+    margin-top: 90px;
     
+}
+ .icons-iza {
+     display:none;
+ }
+
+ .icons-luany {
+    display:none;
+}
+
+.icons-nilton {
+    display:none;
+}
+
+.icons-suelen {
+    display:none;
 }
