@@ -24,7 +24,10 @@
 
 .menu-sm {
     margin: 10px;
+    font-size: 22px;
     color: #F2CB05;
+    box-shadow: 3px 3px #F249B7, 0.5em 0 0.4em;
+    font-family: BEBAS;
 }
 
 .icons {
@@ -46,9 +49,17 @@
 
 #footer-sm {
     background-color: #1AA3D9;
-    font-family: ROBOTO;
+    font-family: BEBAS;
     font-weight: bold;
     text-align: center;
-    height:30px;
     
+}
+
+.rodape {
+    width: 30px;
+    height: 30px;
+}
+
+.menu-rodape{
+    margin-top:10px;
 }

@@ -69,7 +69,7 @@ body{
 
 #footer-sm {
     background-color: #1AA3D9;
-    font-family: ROBOTO;
+    font-family: BEBAS;
     font-weight: bold;
     text-align: center;
     margin-top: 90px;
@@ -89,4 +89,17 @@ body{
 
 .icons-suelen {
     display:none;
+}
+
+.rodape {
+    width: 30px;
+    height: 30px;
+}
+
+.menu-rodape {
+    margin-top: 20px;
+}
+
+.menu-rodape:hover {
+    color: #F2E205;
 }
