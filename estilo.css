@@ -31,7 +31,7 @@ body{
 .menu-sm {
     margin: 10px;
     font-size: 25px;
-    color: #F2CB05;
+    color: black;
     box-shadow: 3px 3px #F249B7, 0.5em 0 0.4em;
     font-family: BEBAS;
 }
@@ -123,7 +123,7 @@ body{
 .botoes {
     margin: 10px;
     font-size: 22px;
-    color: #F2CB05;
+    color: black;
     box-shadow: 3px 3px #F249B7, 0.5em 0 0.4em;
     font-family: BEBAS;
     width: 150px;
@@ -197,7 +197,7 @@ body{
 .assine{
     margin: 10px;
     font-size: 22px;
-    color: #F2CB05;
+    color: black;
     box-shadow: 3px 3px #F249B7, 0.5em 0 0.4em;
     font-family: BEBAS;
     width: 150px;
