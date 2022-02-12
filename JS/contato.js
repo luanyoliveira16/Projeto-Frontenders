@@ -16,7 +16,7 @@ btnIza.addEventListener('click', function() {
   iconsLuany.style.display = 'none'
   iconsNilton.style.display = 'none'
   iconsSuelen.style.display = 'none'
-  contato.style.color= '#F249B7'
+  contato.style.color= '#A873BF'
   contato.innerText = 'Izadora Santos'
   
 
@@ -52,7 +52,7 @@ btnLuany.addEventListener('click', function() {
     iconsLuany.style.display = 'none'
     iconsNilton.style.display = 'none'
     iconsSuelen.style.display = 'block'
-    contato.style.color='#ff0000'
+    contato.style.color='#F249B7'
     contato.innerText = 'Suelen Leao'
   
   
