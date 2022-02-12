@@ -44,7 +44,6 @@ btnLuany.addEventListener('click', function() {
     contato.style.color='#13678A'
     contato.innerText = 'Nilton Cortes'
 
-
   })
 
   btnSuelen.addEventListener('click', function() {
