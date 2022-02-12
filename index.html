@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=], initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <link rel="stylesheet" href="estilo.css">
     <title>FrontEnders</title>
 </head>
@@ -17,12 +18,87 @@
 
   <div>
   <button class="menu-sm">Login</button>
-  <button class="menu-sm">Cadastre-se</button>
+  <button class="menu-sm">ASSINE AGORA</button>
   <button class="menu-sm">Contato</button>
   </div>
     </main>
+    
     <div class="principal">
+      <div class="circle"></div>
+      <div class="parte-texto">
+        <p id="chamada"> 
+            Encontre layouts profissionais para o seu projeto front-end!
+        </p>
+        <p class="obtenha">
+           Obtenha seu front-end de forma rápida e prática.
+        </p>
+         <button class="assine">Assine AGORA</button>
+      </div>
 
+    
+    
+
+<div class="imgBox">
+        <div class="swiper  mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="imagens/carrossel1.jpg" class="img"></div>
+                <div class="swiper-slide"><img src="imagens/carrossel2.jpg" class="img"></div>
+                <div class="swiper-slide"><img src="imagens/carrossel3.jpg" class="img"></div>
+                <div class="swiper-slide"><img src="imagens/carrossel4.jpg" class="img"></div>
+            </div>
+        </div>
+    </div>
+  </div>
+    <div class="planos">
+      <div class="btn">
+            <button class="assine" id="planoMensal">Planos Mensais</button> 
+            <button class="botoes" id="planoAnual">Planos Anuais</button>
+        </div>
+
+       <div class="precos">
+          <div class="plan">
+             <p class="preco1">FRONTENDER BASIC</p>
+             <hr>
+                <p class="plano-mensal">Plano Mensal</p>
+                <h2 class="valor1"> R$ 24,90/mês</h2>
+
+                <div class="texto-abaixo">
+                    <p class="texto-abaixo2">Os melhores layouts, fontes e paletas de cores.</p>
+                </div>
+
+                <button class="assine">Assine AGORA</button>
+          </div>
+
+       <div class="plan">
+          <p class="preco1">FRONTENDER PREMIUM</p>
+          <hr>
+           <p class="plano-mensal2">Plano Mensal</p>
+           <h2 class="valor2"> R$ 49,90/mês</h2>
+
+           <div class="texto-abaixo">
+               <p class="texto-abaixo2">Os melhores layouts, fontes, paletas de cores e 25 imagens.</p>
+           </div>
+
+           <button class="assine">Assine AGORA</button>
+
+      </div>
+
+    <div class="plan">
+       
+      <p class="preco1">FRONTENDER PRO</p>
+      <hr>
+       <p class="plano-mensal3">Plano Mensal</p>
+       <h2 class="valor3"> R$ 74,90/mês</h2>
+
+       <div class="texto-abaixo">
+           <p class="texto-abaixo2">Os melhores layouts, fontes, paletas de cores e imagens ilimitadas.</p>
+       </div>
+
+       <button class="assine">Assine AGORA</button>
+
+
+    </div>
+  </div>
     </div>
 
     <footer id="footer-sm">
@@ -36,7 +112,9 @@
     </footer>
     
     
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>

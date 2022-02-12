@@ -7,6 +7,7 @@ const iconsIza = document.querySelector('.icons-iza');
 const iconsLuany = document.querySelector('.icons-luany');
 const iconsNilton = document.querySelector('.icons-nilton');
 const iconsSuelen = document.querySelector('.icons-suelen');
+const contato = document.querySelector('#contato');
 
 
 btnIza.addEventListener('click', function() {
@@ -15,6 +16,9 @@ btnIza.addEventListener('click', function() {
   iconsLuany.style.display = 'none'
   iconsNilton.style.display = 'none'
   iconsSuelen.style.display = 'none'
+  contato.style.color= '#F249B7'
+  contato.innerText = 'Izadora Santos'
+  
 
 
 })
@@ -25,6 +29,8 @@ btnLuany.addEventListener('click', function() {
     iconsLuany.style.display = 'block'
     iconsNilton.style.display = 'none'
     iconsSuelen.style.display = 'none'
+    contato.style.color = '#F2CB05'
+    contato.innerText = 'Luany Oliveira'
   
   
   })
@@ -35,8 +41,10 @@ btnLuany.addEventListener('click', function() {
     iconsLuany.style.display = 'none'
     iconsNilton.style.display = 'block'
     iconsSuelen.style.display = 'none'
-  
-  
+    contato.style.color='#13678A'
+    contato.innerText = 'Nilton Cortes'
+
+
   })
 
   btnSuelen.addEventListener('click', function() {
@@ -45,6 +53,8 @@ btnLuany.addEventListener('click', function() {
     iconsLuany.style.display = 'none'
     iconsNilton.style.display = 'none'
     iconsSuelen.style.display = 'block'
+    contato.style.color='#ff0000'
+    contato.innerText = 'Suelen Leao'
   
   
   })
