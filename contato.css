@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color:#15BF70;
+    background-color:#161616;
 }
 
 .images {
@@ -20,7 +20,7 @@ body{
     font-size: 55px;
     text-align: center;
     margin-top: 100px;
-    color: #F2E205;
+    color: white;
 }
 
 .container {
@@ -33,7 +33,7 @@ body{
 
 .icons {
     width: 80px;
-    height: 80px;
+    height: 70px;
     display: flex;
     flex-direction: column;
 }
@@ -68,11 +68,11 @@ body{
 }
 
 #footer-sm {
-    background-color: #1AA3D9;
     font-family: BEBAS;
     font-weight: bold;
     text-align: center;
     margin-top: 90px;
+    color: white;
     
 }
  .icons-iza {
