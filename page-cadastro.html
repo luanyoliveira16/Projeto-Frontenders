@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="pages-login-cadastro.css" />
+    <title>Cadastro</title>
+  </head>
+
+  <header class="cabecalho">
+    <h1>FrontEnders</h1>
+  </header>
+
+  <body>
+    <div class="container-cadastro">
+      <form id="forms-cadastro">
+        <h2>Cadastro</h2>
+
+        <label for="name">Nome Completo: </label>
+        <input type="text" id="name" placeholder="Nome" />
+
+        <label for="input_email">E-mail:</label>
+        <input
+          type="email"
+          name="input-email"
+          id="email"
+          placeholder="E-mail"
+        />
+
+        <label for="input_senha">Senha </label>
+        <input
+          type="password"
+          name="input_pass"
+          id="pass"
+          placeholder=" Crie sua senha"
+        />
+
+        <label for="input_senha">Confirme sua senha </label>
+        <input
+          type="password"
+          name="input_pass"
+          id="confirm"
+          placeholder="Confirme sua senha"
+        />
+
+        <label for="input_rg">RG:</label>
+        <input type="text"
+        name="input_id"
+        id="rg-mask"
+        placeholder="Ex.: 00.000.000-0"
+        />
+
+        <div class="endereço">
+            <label for="input_rg">CEP:</label>
+            <input type="text"
+            name="input_cep"
+             id="cep"
+            placeholder="Ex.: 00.000.000"
+            maxlength="8"
+            />
+
+            <label for="input_rg">Rua/Avenida:</label>
+            <input type="text"
+            name="input_rua"
+             id="rua"
+            />
+
+            <label for="input_rg">Número:</label>
+            <input type="text"
+            name="input_number"
+             id="number"
+            />
+
+            <label for="input_rg">complemento:</label>
+            <input type="text"
+            name="input_compl"
+             id="complemento"
+            />
+           
+            <label for="input_rg">Bairro</label>
+            <input type="text"
+            name="input_id"
+             id="rg-mask"
+            />
+
+            <label for="input_rg">Cidade</label>
+            <input type="text"
+            name="input_id"
+             id="rg-mask"
+            />
+
+            <label for="input_rg">Estado</label>
+            <input type="text"
+            name="input_id"
+             id="rg-mask"
+            />
+        </div>
+
+        <button class="btn-cadastro" id="btn-cadastro">Cadastrar</button> 
+      </form>
+    </div>
+  </body>
+</html>
