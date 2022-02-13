@@ -1,0 +1,88 @@
+.container-login{
+    background-color: #F2668B;
+    display: flex;
+    margin: 7rem auto;
+    width: 500px;
+    border-radius: 20px;
+    height: auto;
+}
+
+#forms-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-family: BEBAS;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+hr{
+    width: 500px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+#email, #input-pass, #btn-login, .links-login.inputs{
+    margin-bottom: 13px;
+
+}
+
+#email, #input-pass{
+    background-color: #011C26;
+    border-radius: 6px;
+    width: 350px;
+    padding: 2px;
+    height: 32px;
+    border: none;
+}
+
+#input-pass:focus{
+    background-color: #043d52;
+    outline: 0;
+    border: none;
+}
+
+#email:focus{
+    background-color: #043d52;
+    outline: 0;
+    border: none;
+}
+
+.btn-login{
+    height: 32px;
+    width: 60px;
+    font-size: 19px;
+    color: black;
+    box-shadow: 3px 3px #F249B7, 0.5em 0 0.4em;
+    font-family: BEBAS;
+}
+
+.links-login.inputs{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover{
+    color: #fac90b;
+}
+
+#footer-sm {
+    margin-top: 3%;
+
+}
