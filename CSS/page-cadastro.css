@@ -1,0 +1,85 @@
+.container-cadastro{
+    background-color: #F2668B;
+    display: flex;
+    margin: 5rem auto;
+    width: 600px;
+    border-radius: 20px;
+    height: auto;
+}
+
+#forms-cadastro{
+    text-align: center;
+    display: flex; 
+    flex-direction: column;
+}
+
+h2{
+    font-family: BEBAS;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+hr{
+    width: 600px;
+}
+
+label{
+    text-align: left;
+    margin-left:30px;
+}
+
+#name, #email,#pass, #confirm, #rg-mask, #cpf-mask, #cep, #cidade, #estado, #logradouro, #number, #complemento, #bairro{
+    background-color: #011C26;
+    margin-left:30px;
+    margin-right: 30px;
+    margin-bottom: 5px;
+    border-radius: 6px;
+    padding: 5px;
+    height: 32px;
+    border: none;
+}
+
+#name:focus, 
+#email:focus,
+#pass:focus, 
+#confirm:focus, 
+#rg-mask:focus,
+#cpf-mask:focus, 
+#cep:focus, 
+#cidade:focus,
+#estado:focus,
+#logradouro:focus, 
+#number:focus, 
+#complemento:focus
+#bairro:focus{
+    background-color: #043d52;
+    outline: 0;
+    border: none;
+}
+
+.docs{
+    margin: 5px 0;
+    display: flex;
+
+}
+
+
+
+
+.btn-cadastro{
+    height: 32px;
+    width: 90px;
+    font-size: 19px;
+    color: black;
+    box-shadow: 3px 3px #F249B7, 0.5em 0 0.4em;
+    font-family: BEBAS;
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+
+#footer-sm {
+    margin-top: 13%;
+}
