@@ -19,17 +19,18 @@
         <h2>Cadastro</h2>
 
         <label for="name">Nome Completo: </label>
-        <input type="text" id="name" placeholder="Nome" />
+        <input type="text" id="name" placeholder="Nome" required>
 
-        <label for="input_email">E-mail:</label>
+        <label for="input_email" required>E-mail:</label>
         <input
           type="email"
           name="input-email"
           id="email"
           placeholder="E-mail"
+          onblur="validaEmail()"
         />
 
-        <label for="input_senha">Senha </label>
+        <label for="input_senha" required>Senha </label>
         <input
           type="password"
           name="input_pass"
@@ -37,7 +38,7 @@
           placeholder=" Crie sua senha"
         />
 
-        <label for="input_senha">Confirme sua senha </label>
+        <label for="input_senha" required>Confirme sua senha </label>
         <input
           type="password"
           name="input_pass"
@@ -48,58 +49,66 @@
         <label for="input_rg">RG:</label>
         <input type="text"
         name="input_id"
-        id="rg-mask"
-        placeholder="Ex.: 00.000.000-0"
+        id="rg"
+        placeholder="Ex.: 000000000"
+        />
+        <label for="input_cpf">CPF:</label>
+        <input type="text"
+        name="input_id"
+        id="cpf"
+        placeholder="Ex.: 000.000.000-00"
         />
 
-        <div class="endereço">
-            <label for="input_rg">CEP:</label>
-            <input type="text"
-            name="input_cep"
+        <div class="endereco">
+            <label for="input_cep" required>CEP:</label>
+            <input type="text" name="input_cep"
              id="cep"
             placeholder="Ex.: 00.000.000"
             maxlength="8"
             />
 
-            <label for="input_rg">Rua/Avenida:</label>
+            <label for="input_rua" required>Rua/Avenida:</label>
             <input type="text"
             name="input_rua"
              id="rua"
             />
 
-            <label for="input_rg">Número:</label>
+            <label for="input_numero">Número:</label>
             <input type="text"
             name="input_number"
              id="number"
             />
 
-            <label for="input_rg">complemento:</label>
+            <label for="input_complemento">Complemento:</label>
             <input type="text"
             name="input_compl"
              id="complemento"
             />
            
-            <label for="input_rg">Bairro</label>
+            <label for="input_bairro" >Bairro</label>
             <input type="text"
-            name="input_id"
-             id="rg-mask"
+            name="input_bairro"
+             id="bairro"
             />
 
-            <label for="input_rg">Cidade</label>
+            <label for="input_cidade">Cidade</label>
             <input type="text"
             name="input_id"
-             id="rg-mask"
+             id="cidade"
             />
 
-            <label for="input_rg">Estado</label>
+            <label for="input_uf">Estado</label>
             <input type="text"
             name="input_id"
-             id="rg-mask"
+             id="uf"
             />
         </div>
 
         <button class="btn-cadastro" id="btn-cadastro">Cadastrar</button> 
       </form>
     </div>
+
+    <script src="./assets/js/cadastro.js" type="module" ></script>
+    <script src="./assets/js/validaEmail.js" type="module"></script>
   </body>
 </html>
