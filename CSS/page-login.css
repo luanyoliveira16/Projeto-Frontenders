@@ -51,7 +51,8 @@ hr{
 #input-pass:focus{
     background-color: #043d52;
     outline: 0;
-    border: none;
+    border: none; 
+    color: white;
 }
 
 
