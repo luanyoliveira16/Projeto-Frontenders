@@ -1,0 +1,139 @@
+.cabecalho {
+  display: flex;
+  border: 2px solid transparent;
+}
+
+#search-bar {
+  background-color: #161616;
+  margin-left: 20rem;
+  height: 2.5em;
+  width: 15%;
+  font-size: 16px;
+  border: 3px solid #161616;
+  border-bottom-color: white;
+}
+
+#search-bar:focus {
+  outline: 0;
+  padding: 0 1em;
+  color: white;
+  border-bottom-color: #f249b7;
+}
+
+input::placeholder {
+  color: white;
+  text-align: center;
+}
+
+#sair {
+  height: 38px;
+  width: 90px;
+  text-align: center;
+  font-size: 25px;
+  color: black;
+  box-shadow: 3px 3px #f249b7, 0.5em 0 0.4em;
+  font-family: BEBAS;
+  margin: 10px;
+  margin-left: 28rem;
+}
+
+.container-produto{
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+}
+
+.opcoes {
+  width: 70%;
+  height: 3em;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  border-bottom: 3px #bd1fbf;
+  border: 2px solid transparent;  
+}
+
+#populares, #recentes, #cores, #funcao, #estilos{
+  display: flex;
+  justify-content: center;
+  background-color:#161616;
+  width: 20%;
+  height: 3em;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  font-size: 16px;
+  color: white;
+}
+
+#populares:hover,
+#recentes:hover, 
+#cores:hover,  
+#estiloschild:hover,
+#funcaochild:hover{
+  background-color: #292929;
+  border: #161616 3px solid;
+  border-bottom-color: #f249b7;
+}
+
+
+#funcaochild,
+#estiloschild {
+  outline: 0;
+  background-color: #161616;
+  color: white;
+  border: none;
+  text-align: center;
+  font-family: Arial;
+  font-size: 15px;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* layouts demonstrativos*/
+.layouts{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 5em;
+    justify-content: center;
+}
+
+.produto{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    margin: 2% 0.5%;
+    height: auto;
+    border: 1px solid white;
+}
+
+#demo{
+  width: 90%;
+  margin: 3% 0% 2% 3%;
+}
+
+#linha{
+  display: flex;
+  flex-direction: row;
+  width: 93%;
+  height: 10%;
+  justify-content: space-between;
+  
+}
+
+.produto a{
+    text-decoration: none;
+}
+
+p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+   font-family: BEBAS;
+    margin-left: 3%;
+}
+
+.produto:hover{
+    transform: scale(1.05);
+}
