@@ -1,7 +1,6 @@
 .cabecalho {
   display: flex;
-  border: 2px solid;
-  border-bottom-color: white;
+  border: 2px solid transparent;
 }
 
 #search-bar {
@@ -9,7 +8,7 @@
   margin-left: 20rem;
   height: 2.5em;
   width: 15%;
-  font-size: 15px;
+  font-size: 16px;
   border: 3px solid #161616;
   border-bottom-color: white;
 }
@@ -17,7 +16,7 @@
 #search-bar:focus {
   outline: 0;
   padding: 0 1em;
-  color: #f249b7;
+  color: white;
   border-bottom-color: #f249b7;
 }
 
@@ -38,41 +37,44 @@ input::placeholder {
   margin-left: 28rem;
 }
 
+.container-produto{
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+}
+
 .opcoes {
-  width: 100%;
+  width: 70%;
   height: 3em;
   display: flex;
   flex-direction: row;
+  margin: 0 auto;
   border-bottom: 3px #bd1fbf;
+  border: 2px solid transparent;  
 }
 
-.opcoes{
-    border: 2px solid;
-    border-bottom-color:white;
-}
-
-#populares,
-#recentes {
-  background-color:#161616;
+#populares, #recentes, #cores, #funcao, #estilos{
   display: flex;
+  justify-content: center;
+  background-color:#161616;
+  width: 20%;
   height: 3em;
-  width: 30%;
-  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
   align-items: center;
-  font-family: Arial;
   font-size: 16px;
   color: white;
 }
 
-#funcao,
-#estilos {
-  width: 30%;
-  display: flex;
-  height: 3em;
-  background-color: #161616;
-  align-items: center;
-  text-align: center;
+#populares:hover,
+#recentes:hover, 
+#cores:hover,  
+#estiloschild:hover,
+#funcaochild:hover{
+  background-color: #292929;
+  border: #161616 3px solid;
+  border-bottom-color: #f249b7;
 }
+
 
 #funcaochild,
 #estiloschild {
@@ -80,8 +82,11 @@ input::placeholder {
   background-color: #161616;
   color: white;
   border: none;
+  text-align: center;
   font-family: Arial;
-  font-size: 18px;
+  font-size: 15px;
+  width: 100%;
+  height: 100%;
 }
 
 
@@ -89,15 +94,15 @@ input::placeholder {
 .layouts{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-top: 30px;
+    width: 90%;
+    margin-top: 6rem;
+    justify-content: center;
 }
 
 .produto{
-    width: 30%;
+    width: 33%;
     height: 400px;
-
-
+    margin: auto auto;
 }
 
 .produto img{
@@ -107,6 +112,12 @@ input::placeholder {
 
 h2{
     color: white;
+    font-size: 25px;
+    font-size: arial;
+}
+
+h2:hover{
+  color: #f249b7;
 }
  
 /*redirecionamento demonstrativo*/

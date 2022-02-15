@@ -1,7 +1,7 @@
 .container-cadastro{
     background-color: #F2668B;
     display: flex;
-    margin: 5rem auto;
+    margin: 4rem auto;
     width: 600px;
     border-radius: 20px;
     height: auto;
@@ -140,6 +140,3 @@ label{
     margin: 20px auto;
 }
 
-#footer-sm {
-    margin-top: 50%;
-}
