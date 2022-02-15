@@ -53,7 +53,7 @@ btnLuany.addEventListener('click', function() {
     iconsNilton.style.display = 'none'
     iconsSuelen.style.display = 'block'
     contato.style.color='#F249B7'
-    contato.innerText = 'Suelen Leao'
+    contato.innerText = 'Suelen Brito'
   
   
   })
