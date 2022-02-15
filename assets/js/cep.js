@@ -36,13 +36,17 @@ const pesquisarCep = async () => {
 
     // Testando se o CEP é válido na API
     if (endereco.hasOwnProperty('erro')) {
-      document.getElementById('rua').value = 'CEP não encontrado!';
+      document.getElementById('cep').value = 'CEP não encontrado!';
+      document.getElementById('cep').style.color = "white";
+      document.getElementById('cep').style.backgroundColor = "red";
     } else {
       preencherFormulario(endereco);
       return true;
     }
   } else {
-    document.getElementById('rua').value = 'CEP incorreto!';
+    document.getElementById('cep').value = 'CEP incorreto!';
+    document.getElementById('cep').style.color = "white";
+    document.getElementById('cep').style.backgroundColor = "red";
   }
 
 }
