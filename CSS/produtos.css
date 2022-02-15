@@ -53,7 +53,7 @@ input::placeholder {
   border: 2px solid transparent;  
 }
 
-#populares, #recentes, #cores, #funcao, #estilos{
+#populares, #recentes, #chama-cores, #funcao, #estilos{
   display: flex;
   justify-content: center;
   background-color:#161616;
@@ -67,7 +67,7 @@ input::placeholder {
 
 #populares:hover,
 #recentes:hover, 
-#cores:hover,  
+#chama-cores:hover,  
 #estiloschild:hover,
 #funcaochild:hover{
   background-color: #292929;
@@ -75,6 +75,11 @@ input::placeholder {
   border-bottom-color: #f249b7;
 }
 
+#chama-cores{
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
 
 #funcaochild,
 #estiloschild {
@@ -140,3 +145,36 @@ p{
 .produto:hover{
     transform: scale(1.05);
 }
+
+div#cores-container{
+  display: none;
+  flex-direction: row;
+  position: absolute;
+  top: 15%;
+  left: 44%;
+  z-index: 1;
+  flex-wrap: wrap;
+  width:180px;
+  height: 160px;
+  border: #161616 4px solid;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #161616;
+  transition: display 1.05s;
+}
+
+div#cores-container.abrirfechar{
+  display: flex;
+
+}
+
+
+div.cores{
+  width: 35px;
+  height: 35px;
+  margin: auto;
+
+}
+
+
+  
