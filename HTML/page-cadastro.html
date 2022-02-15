@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../CSS/estilo-header-footer.css"/>
+    <link rel="stylesheet" href="../CSS/page-cadastro.css" />
+    
+    <title>Cadastro</title>
+  </head>
+
+  <header class="cabecalho">
+    <h1>FrontEnders</h1>
+  </header>
+
+  <body>
+    <div class="container-cadastro">
+      <form id="forms-cadastro">
+        <h2>Cadastro</h2>
+        <hr />
+
+        <label for="name">Nome Completo: </label>
+        <input type="text" id="name" placeholder="Nome" />
+
+        <label for="input_email">E-mail:</label>
+        <input type="email" name="input-email" id="email" placeholder="E-mail"/>
+
+        <label for="input_senha">Senha:</label>
+        <input type="password" name="input_pass" id="pass" placeholder=" Crie sua senha">
+
+        <label for="input_senha">Confirme sua senha: </label>
+        <input type="password" name="input_pass" id="confirm" placeholder="Confirme sua senha"/>
+
+        <div class="docs">
+          <div id="docschild1">
+            <label for="input_rg">RG:</label>
+            <input type="text" name="input_id" id="rg-mask" placeholder="Ex.: 00.000.000-0"/>
+          </div>
+
+          <div id="docschild2">
+            <label for="input_cpf">CPF:</label>
+            <input type="text" name="input_cpf" id="cpf-mask" placeholder="Ex.: 000.000.000-00" maxlength="11"/>
+          </div>
+        </div>
+
+        <div class="endereco1">
+          <div class="child1">
+            <label for="input_cep">CEP:</label>
+            <input type="text" name="input_cep" id="cep" maxlength="8"/>
+          </div>
+
+          <div class="child2">
+            <label for="input_cidade">Cidade:</label>
+            <input type="text" name="input_cidade" id="cidade" />
+          </div>
+
+          <div class="child3">
+            <label for="input_estado">Estado:</label>
+            <input type="text" name="estado" id="estado" />
+          </div>
+        </div>
+
+        <div class="endereco1">
+          <div class="child4">
+            <label for="input_logradouro">Logradouro:</label>
+            <input type="text" name="input_rua" id="logradouro" />
+          </div>
+        
+          <div class="child5">
+            <label for="input_numero">Número:</label>
+            <input type="text" name="input_number" id="number" />
+          </div>
+        </div>
+
+        <div class="endereco1">
+            <div class="child6">
+              <label for="input_complemento">Complemento:</label>
+              <input type="text" name="input_compl" id="complemento" />
+            </div>
+          
+            <div class="child6">
+              <label for="input_bairro">Bairro</label>
+              <input type="text" name="input_bairro" id="bairro" />
+            </div>
+        </div>
+
+        <button class="btn-cadastro" id="btn-cadastro">Cadastrar</button>
+      </form>
+    </div>
+    
+    <footer id="footer-sm">
+      FrontEnders.com © 2000-2022 - Todos os direitos reservados
+      <nav class="menu-rodape">
+        <img src="../icons/instagram.png" alt="instagram" class='rodape' type="submit" onmouseover="this.src='../icons/insta.png'" onmouseout="this.src='../icons/instagram.png'">
+        <img src="../icons/din.png" alt="Linkedin" class='rodape' type="submit" onmouseover="this.src='../icons/in.png'" onmouseout="this.src='../icons/din.png'">
+        <img src="../icons/twitter.png" alt='Twitter' class='rodape' type="submit" onmouseover="this.src='../icons/twitter2.png'" onmouseout="this.src='../icons/twitter.png'">
+        <img src="../icons/facebook.png" alt="Facebook" class='rodape' type="submit" onmouseover="this.src='../icons/facebook2.png'" onmouseout="this.src='../icons/facebook.png'">
+    </nav>
+  </footer>
+
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../JS/cep.js"></script>
+    <script src="../JS/jquery-3.6.0.js"></script>
+    <script src="../JS/validaCpf.js"></script>
+    <script src="../JS/validaEmail.js"></script>
+    <script src="../JS/validaSenha.js"></script>
+  </body>
+</html>
