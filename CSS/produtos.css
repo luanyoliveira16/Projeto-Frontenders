@@ -107,30 +107,34 @@ input::placeholder {
     height: auto;
     border: 1px solid white;
 }
+.produto a{
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 
 #demo{
   width: 90%;
-  margin: 3% 0% 2% 3%;
+  margin: 3% 0% 2% 0%;
 }
 
 #linha{
   display: flex;
   flex-direction: row;
-  width: 93%;
+  width: 91%;
   height: 10%;
-  justify-content: space-between;
-  
+  text-align: justify;
+  justify-content: space-between; 
 }
 
-.produto a{
-    text-decoration: none;
-}
 
 p{
     color: white;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
-   font-family: BEBAS;
+    font-family: BEBAS;
     margin-left: 3%;
 }
 
