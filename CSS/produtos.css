@@ -94,36 +94,44 @@ input::placeholder {
 .layouts{
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
-    margin-top: 6rem;
+    width: 100%;
+    margin-top: 5em;
     justify-content: center;
 }
 
 .produto{
-    width: 33%;
-    height: 400px;
-    margin: auto auto;
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    margin: 2% 0.5%;
+    height: auto;
+    border: 1px solid white;
 }
 
-.produto img{
-    width: 90%;
-    height: 70%;
+#demo{
+  width: 90%;
+  margin: 3% 0% 2% 3%;
 }
 
-h2{
-    color: white;
-    font-size: 25px;
-    font-size: arial;
+#linha{
+  display: flex;
+  flex-direction: row;
+  width: 93%;
+  height: 10%;
+  justify-content: space-between;
+  
 }
 
-h2:hover{
-  color: #f249b7;
-}
- 
-/*redirecionamento demonstrativo*/
 .produto a{
     text-decoration: none;
+}
 
+p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+   font-family: BEBAS;
+    margin-left: 3%;
 }
 
 .produto:hover{
