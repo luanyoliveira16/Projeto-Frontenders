@@ -40,11 +40,11 @@ hr{
 
 #email, #input-pass{
     background-color: #011C26;
-    border-radius: 6px;
     width: 350px;
     padding: 5px;
     height: 32px;
     border: none;
+    color: white;
 }
 
 #email:focus,
