@@ -1,12 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="pt-br">
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fashion</title>
-</head>
-<body>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../CSS/estilo-header-footer.css"/>
+    <link rel="stylesheet" href="../CSS/produtos.css">
+    <link rel="stylesheet" href="../CSS/page-demo.css" />
     
-</body>
+    <title>Fashion</title>
+  </head>
+
+  <body>
+    <header class="cabecalho"> 
+        <h1>Frontenders</h1>
+        <input type="text" id="search-bar" placeholder="Pesquise seu template"> 
+        <button id="sair">Log out</button>
+    </header>
+    
+    <main class="container-produto">
+        <div class="opcoes">
+            <div id="recentes">Recentes</div>
+            <div id="populares">Populares</div>
+            <div id="chama-cores"> Cores</div>
+    
+            <div id="estilos">
+                <select id="estiloschild">
+                    <option>Estilo</option>
+                    <option value="base">Dark</option>
+                    <option value="base">Aesthetic</option>
+                    <option value="base">Divertido</option>
+                    <option value="base">Vintage</option>
+                    <option value="base">Futurista</option>
+                    <option value="base">Elegante</option>
+                </select>
+            </div>
+            <div id="funcao">
+                <select id="funcaochild">
+                    <option>Funcionalidade</option>
+                    <option value="base">Educação</option>
+                    <option value="base">Marketing</option>
+                    <option value="base">Vendas</option>
+                    <option value="base">Pessoal</option>
+                    <option value="base">Informativo</option>
+                    <option value="base">Entretenimento</option>
+                </select>
+            </div>
+        </div>
+    
+        <section class="container-fashion">
+            <div class="caixa1">
+                <h2>Fashion</h2>
+                <h5>Vendas</h5>
+                <img src="../imagens/carrossel4.jpg" id="layout-fashion">
+                <br>
+            </div>
+    
+            <div class="caixa2">
+                <ul>
+                    <li>Com este layout você poderá criar um site de vendas de roupas, acessórios e cosméticos.</li>
+                    <li>10 páginas criadas especialmente pensando na atração de novos clientes para seu negócio</li>
+                    <li>Pode ser alterado com tags, imagens, ícones, tabelas e demais elementos</li>
+                </ul>
+    
+                <p>Baixar layout:</p>
+                <div class="botoes">
+                    <button id="botoes">HTML</button>
+                <button id="botoes">CSS</button>
+                <img src="../imagens/favoritar.png">
+                </div>
+            </div>
+        </section>
+
+        <div id="cores-container"></div>
+
+        <script src="../assets/js/bootstrap.min.js"></script>
+        <script src="../JS/colors.js"></script>
+  </body>
 </html>
+  
