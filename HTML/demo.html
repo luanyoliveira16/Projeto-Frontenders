@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../CSS/estilo-header-footer.css"/>
+    <link rel="stylesheet" href="../CSS/estilo-header-footer.css" />
     <link rel="stylesheet" href="../CSS/produtos.css">
     <link rel="stylesheet" href="../CSS/page-demo.css" />
-    
-    <title>Fashion</title>
-  </head>
 
-  <body>
+    <title>Fashion</title>
+</head>
+
+<body>
     <header class="cabecalho"> 
         <h1>Frontenders</h1>
         <input type="text" id="search-bar" placeholder="Pesquise seu template"> 
         <button id="sair">Log out</button>
     </header>
-    
+
     <main class="container-produto">
         <div class="opcoes">
             <div id="recentes">Recentes</div>
             <div id="populares">Populares</div>
             <div id="chama-cores"> Cores</div>
-    
+
             <div id="estilos">
                 <select id="estiloschild">
                     <option>Estilo</option>
@@ -48,7 +49,7 @@
                 </select>
             </div>
         </div>
-    
+
         <section class="container-fashion">
             <div class="caixa1">
                 <h2>Fashion</h2>
@@ -56,27 +57,30 @@
                 <img src="../imagens/carrossel4.jpg" id="layout-fashion">
                 <br>
             </div>
-    
+
             <div class="caixa2">
                 <ul>
                     <li>Com este layout você poderá criar um site de vendas de roupas, acessórios e cosméticos.</li>
                     <li>10 páginas criadas especialmente pensando na atração de novos clientes para seu negócio</li>
                     <li>Pode ser alterado com tags, imagens, ícones, tabelas e demais elementos</li>
                 </ul>
-    
+
                 <p>Baixar layout:</p>
                 <div class="botoes">
                     <button id="botoes">HTML</button>
-                <button id="botoes">CSS</button>
-                <img src="../imagens/favoritar.png">
+                    <button id="botoes">CSS</button>
+                    <img src="../imagens/favoritar.png">
                 </div>
             </div>
         </section>
 
         <div id="cores-container"></div>
-
-        <script src="../assets/js/bootstrap.min.js"></script>
+        
         <script src="../JS/colors.js"></script>
-  </body>
+        <script src="..//assets/js/jquery-3.6.0.js"></script>
+        <script src="../JS/models-frontenders.js"></script>
+        <script src="../JS/view-frontenders.js"></script>
+        
+</body>
+
 </html>
-  

@@ -9,6 +9,7 @@
     display: flex;
     align-items: center;
     height: 4.8em;
+    justify-content: space-between;
 }
 
 h1 {

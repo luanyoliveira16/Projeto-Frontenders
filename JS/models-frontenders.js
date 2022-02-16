@@ -1,4 +1,7 @@
 'use strict';
+//Models de Validação//
+
+//**VALIDAÇÃO DE CEP COM API CORREIO**//
 
 // função que limpa o Formulário
 const limparForm = (endereco) => {
@@ -55,3 +58,53 @@ const pesquisarCep = async () => {
 document.getElementById('cep')
   .addEventListener('focusout', pesquisarCep);
 
+// **VALIDANDO CPF**//
+
+//Aplicando escuta para quando sair do foco no validando CPF
+let cpfTeste = $('#cpf-mask').blur(function () {
+
+  let strCPF = $("#cpf-mask").val();
+  let Soma = "";
+  let Resto = "";
+  if (strCPF == "00000000000") console.log("zero não");
+  
+  for (i=1; i<=9; i++) Soma = Soma + parseInt(strCPF.substring(i-1, i)) * (11 - i);
+  Resto = (Soma * 10) % 11;
+  
+  if ((Resto == 10) || (Resto == 11))  Resto = 0;
+  if (Resto != parseInt(strCPF.substring(9, 10)) ) ;
+  // console.log(false);
+  
+  Soma = 0;
+  for (i = 1; i <= 10; i++) Soma = Soma + parseInt(strCPF.substring(i-1, i)) * (12 - i);
+  Resto = (Soma * 10) % 11;
+  
+      if ((Resto == 10) || (Resto == 11))  Resto = 0;
+      if (Resto != parseInt(strCPF.substring(10, 11) ) ) {
+        alert("CPF Inválido!");
+      }
+});
+
+
+//**VALIDANDO EMAIL**//
+
+//Validação email página cadastro
+$('#email').blur(function () {
+  if( document.forms[0].email.value=="" 
+     || document.forms[0].email.value.indexOf('@')==-1 
+       || document.forms[0].email.value.indexOf('.')==-1 )
+      {   alert ('Por favor, informe um Email válido!');
+                     
+      }
+  });
+
+  //**VALIDANDO COMPARAÇÃO DAS SENHAS**//
+  
+  //Validação senha pagina cadastro
+$('#confirm').blur(function (senha, confirsenha) {
+  var senha= $('#pass').val();
+  var confirsenha= $('#confirm').val();
+        if (senha != confirsenha) {
+          alert ('Por favor, digite senha idênticas!');
+      } 
+});

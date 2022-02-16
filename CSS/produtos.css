@@ -95,7 +95,6 @@ input::placeholder {
   height: 100%;
 }
 
-
 /* layouts demonstrativos*/
 .layouts{
     display: flex;
@@ -151,7 +150,7 @@ div#cores-container{
   display: none;
   flex-direction: row;
   position: absolute;
-  top: 15%;
+  top: 18%;
   left: 44%;
   z-index: 1;
   flex-wrap: wrap;
@@ -166,7 +165,6 @@ div#cores-container{
 
 div#cores-container.abrirfechar{
   display: flex;
-
 }
 
 
@@ -174,7 +172,6 @@ div.cores{
   width: 35px;
   height: 35px;
   margin: auto;
-
 }
 
 

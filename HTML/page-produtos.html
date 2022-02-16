@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="../CSS/estilo-header-footer.css" />
     <link rel="stylesheet" href="../CSS/produtos.css">
 
     <title>Produtos</title>
 </head>
+
 <body>
     <header class="cabecalho"> 
         <h1>Frontenders</h1>
@@ -23,6 +25,7 @@
             <div id="recentes">Recentes</div>
             <div id="populares">Populares</div>
             <div id="chama-cores"> Cores</div>
+    
 
             <div id="estilos">
                 <select id="estiloschild">
@@ -48,36 +51,37 @@
             </div>
         </div>
 
+
         <div class="layouts">
+            <div class="produto">
+                <a href="#">
+                    <img src="../imagens/carrossel4.jpg" id="demo">
+                    <div id="linha">
+                        <p>Fashion</p>
+                        <img src="../imagens/etiqueta-premium.jpg">
+                    </div>
+
+                </a>
+
+            </div>
+
             <div class="produto">
                 <a href="#">
                     <img src="../imagens/carrossel6.jpg" id="demo">
                     <div id="linha">
                         <p>Music</p>
-                        <img src="../imagens/etiqueta-premium.jpg"> 
+                        <img src="../imagens/etiqueta-pro.jpg">
                     </div>
-                   
                 </a>
-                
+
             </div>
 
             <div class="produto">
-                <a href="demo.html">
-                    <img src="../imagens/carrossel4.jpg" id="demo"> 
-                    <div id="linha">
-                        <p>Fashion</p>
-                        <img src="../imagens/etiqueta-pro.jpg"> 
-                    </div>
-                </a>
-                
-            </div>
-
-            <div class="produto">
-                <a href="demo.html">
+                <a id="demo">
                     <img src="../imagens/carrossel1.jpg" id="demo">
                     <div id="linha">
                         <p>Social</p>
-                        <img src="../imagens/etiqueta-basic.jpg"> 
+                        <img src="../imagens/etiqueta-basic.jpg">
                     </div>
                 </a>
             </div>
@@ -87,7 +91,7 @@
                     <img src="../imagens/carrossel2.jpg" id="demo">
                     <div id="linha">
                         <p>Entretenimento</p>
-                        <img src="../imagens/etiqueta-pro.jpg"> 
+                        <img src="../imagens/etiqueta-pro.jpg">
                     </div>
                 </a>
             </div>
@@ -96,8 +100,8 @@
                 <a href="#">
                     <img src="../imagens/carrossel5.jpg" id="demo">
                     <div id="linha">
-                        <p>Ambiental</p>
-                        <img src="../imagens/etiqueta-basic.jpg"> 
+                        <p>Serviços</p>
+                        <img src="../imagens/etiqueta-basic.jpg">
                     </div>
                 </a>
             </div>
@@ -107,14 +111,22 @@
                     <img src="../imagens/carrossel3.jpg" id="demo">
                     <div id="linha">
                         <p>Eventos</p>
-                        <img src="../imagens/etiqueta-basic.jpg"> 
+                        <img src="../imagens/etiqueta-basic.jpg">
                     </div>
                 </a>
             </div>
-        </div>    
+        </div>
+
+        <div id="cores-container"></div>
     </main>
-    <div id="cores-container"></div>
 
     <script src="../JS/colors.js"></script>
+    <script src="..//assets/js/jquery-3.6.0.js"></script>
+    <script src="../JS/models-frontenders.js"></script>
+    <script src="../JS/view-frontenders.js"></script>
 </body>
 </html>
+
+
+
+    

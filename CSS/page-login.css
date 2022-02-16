@@ -1,3 +1,7 @@
+.botao{
+    margin-right: 5%;
+}
+
 .container-login{
     background-color: #F2668B;
     display: flex;
@@ -33,12 +37,12 @@ hr{
     text-align: left;
 }
 
-#email, #input-pass, #btn-login, .links-login.inputs{
+#email3, #input-pass, #btn-login, .links-login.inputs{
     margin-bottom: 13px;
 
 }
 
-#email, #input-pass{
+#email3, #input-pass{
     background-color: #011C26;
     width: 350px;
     padding: 5px;
@@ -47,7 +51,7 @@ hr{
     color: white;
 }
 
-#email:focus,
+#email3:focus,
 #input-pass:focus{
     background-color: #043d52;
     outline: 0;
