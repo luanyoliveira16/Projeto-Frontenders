@@ -142,9 +142,9 @@ body{
     color: #F2E205;
 }
 
+/*responsividade*/
 @media(max-width:800px){
     .container-sm{
       display: flex;
       flex-direction: column;
     }
-}
