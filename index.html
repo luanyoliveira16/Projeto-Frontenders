@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=], initial-scale=1.0">
+  <meta name="viewport" content="width=width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./CSS/estilo.css">
@@ -12,13 +12,12 @@
 </head>
 
 <body>
-
-  <main class="main">
+  <main class="main" col-md-3>
     <div class="container">
 
       <header id="title">FrontEnders</header>
 
-      <div>
+      <div class="menu">
         <button class="menu-sm" id='login2'>Login</button>
         <button class="menu-sm" onclick='cadastro2()'>Assine Agora</button>
         <button class="menu-sm" id="produtos2">Produtos</button>
@@ -26,7 +25,7 @@
       </div>
   </main>
 
-  <div class="principal">
+  <div class="principal" col-sm-4>
     <div class="circle"></div>
     <div class="parte-texto">
       <p id="chamada">
@@ -37,9 +36,6 @@
       </p>
       <button class="assine" onclick='cadastro2()'>Assine AGORA</button>
     </div>
-
-
-
 
     <div class="imgBox">
       <div class="swiper  mySwiper">
@@ -52,14 +48,14 @@
       </div>
     </div>
   </div>
-  <div class="planos">
+  <div class="planos" col-sm-3>
     <div class="btn">
       <button class="assine" id="planoMensal">Planos Mensais</button>
       <button class="botoes" id="planoAnual">Planos Anuais</button>
     </div>
 
-    <div class="precos">
-      <div class="plan">
+    <div class="precos-sm">
+      <div class="plan-sm">
         <p class="preco1">FRONTENDER BASIC</p>
         <hr>
         <p class="plano-mensal">Plano Mensal</p>
@@ -72,7 +68,7 @@
         <button class="assine" onclick='cadastro2()'>Assine AGORA</button>
       </div>
 
-      <div class="plan">
+      <div class="plan-sm">
         <p class="preco1">FRONTENDER PREMIUM</p>
         <hr>
         <p class="plano-mensal2">Plano Mensal</p>
@@ -86,7 +82,7 @@
 
       </div>
 
-      <div class="plan">
+      <div class="plan-sm">
 
         <p class="preco1">FRONTENDER PRO</p>
         <hr>
@@ -119,7 +115,10 @@
   </footer>
 
 
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="./assets/js/jquery-3.6.0.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
   <script src="./JS/models-frontenders.js"></script>
   <script src="./JS/view-frontenders.js"></script>
 
