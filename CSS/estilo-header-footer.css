@@ -9,6 +9,7 @@
     display: flex;
     align-items: center;
     height: 4.8em;
+    justify-content: space-between;
 }
 
 h1 {
@@ -21,7 +22,7 @@ h1 {
 }
 
 body{
-    background-color: #161616;
+    background-color: black;
     min-height: 100%;
     position: relative;
 }
