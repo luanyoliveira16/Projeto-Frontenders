@@ -30,7 +30,7 @@ body{
 }
 
 .obtenha {
-    font-family:poppins;
+    font-family:Arial;
     font-size: 18px;
 }
 
@@ -250,6 +250,7 @@ body{
 }
 
 
+
 @media(max-width: 991px) {
     .main {
         padding: 40px;
@@ -322,4 +323,3 @@ body{
 
 
 }
-
