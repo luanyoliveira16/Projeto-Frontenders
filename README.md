@@ -31,9 +31,7 @@ Pesquisa de layouts por:
 1. Paletas de cores
 
 ### Acesso ao projeto ###
-
-Pode ser acessado via mobile devido a responsividade.
-//ADD LINK//
+https://luanyoliveira16.github.io/Projeto-Frontenders/
 
 ### Tecnologias utilizadas ###
 
