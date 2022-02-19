@@ -12,7 +12,7 @@ $('#login').on('click', function () {
 
 //From Pages for Home
 $('#home').on('click', function () {
-    window.location.href = 'index.html';
+    window.location.href = './index.html';
 });
 
 //From Page Produtos for Login
