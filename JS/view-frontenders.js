@@ -101,11 +101,6 @@ $('#cadastro').on('click', function () {
     window.location.href = 'page-cadastro.html';
 });
 
-//From Pages for Home (index)
-// $('#home').on('click', function () {
-//     window.location.href = './PROJETO-FRONTENDERS/index.html';
-// });
-
 //From Page Cadastro for Login
 $('#btn-cadastro').on('click', function (event) {
     event.preventDefault();
