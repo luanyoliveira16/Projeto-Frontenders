@@ -12,6 +12,12 @@ body{
     background-color:#161616;
 }
 
+.cabecalho-sm{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .container {
     margin-top: 5rem;
     display: flex;
@@ -19,7 +25,7 @@ body{
     justify-content: space-between;
 }
 
-#title {
+#title{
     font-family: BEBAS;
     font-size: 50px;
     font-weight: bold;
@@ -142,9 +148,38 @@ body{
 }
 
 /*responsividade*/
-@media(max-width:800px){
+@media(max-width:1200px){
     .container-sm{
       display: flex;
       flex-direction: column;
+      justify-content: center;
     }
+
+    .botao{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .menu-sm {
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cabecalho-sm{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #title{
+        text-align: center;
+    }
+
+    .principal{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
 }
