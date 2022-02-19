@@ -12,7 +12,7 @@ $('#login').on('click', function () {
 
 //From Pages for Home
 $('#home').on('click', function () {
-    window.location.href = './index.html';
+    window.location.href = '../index.html';
 });
 
 //From Page Produtos for Login
@@ -99,11 +99,6 @@ $('#redefinir').on('click', function () {
 //From Page Login for Cadastro
 $('#cadastro').on('click', function () {
     window.location.href = 'page-cadastro.html';
-});
-
-//From Pages for Home (index)
-$('#home').on('click', function () {
-    window.location.href = './index.html';
 });
 
 //From Page Cadastro for Login
