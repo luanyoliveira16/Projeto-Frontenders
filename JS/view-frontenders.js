@@ -12,7 +12,7 @@ $('#login').on('click', function () {
 
 //From Pages for Home
 $('#home').on('click', function () {
-    window.location.href = './index.html';
+    window.location.href = '/index.html';
 });
 
 //From Page Produtos for Login
@@ -102,9 +102,9 @@ $('#cadastro').on('click', function () {
 });
 
 //From Pages for Home (index)
-$('#home').on('click', function () {
-    window.location.href = './index.html';
-});
+// $('#home').on('click', function () {
+//     window.location.href = './PROJETO-FRONTENDERS/index.html';
+// });
 
 //From Page Cadastro for Login
 $('#btn-cadastro').on('click', function (event) {
