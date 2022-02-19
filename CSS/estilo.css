@@ -8,6 +8,11 @@ body{
     
 }
 
+.main-sm{
+    display:flex;
+    justify-content:space-around;
+}
+
 
 .container {
     display: flex;
@@ -251,75 +256,204 @@ body{
 
 
 
-@media(max-width: 991px) {
-    .main {
-        padding: 40px;
+/*responsividade*/
+@media(max-width:1200px){
+
+    .main-sm{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
     }
 
-    section {
-        padding: 150px 40px;
+    .imgBox{
+        margin-left: -20px;
     }
 
-    .sci {
-        left: 40px;
-    }
 
-    .principal {
-        flex-direction: column;
-    }
-
-    #chamada {
-        font-size: 25px;
+    .botao{
         display: flex;
-        justify-content: flex-start;
+        flex-direction: column;
+        justify-content: center;
     }
-
-    .principal #chamada,
-    .principal .imgBox {
-        max-width: 100%;
+    .circle {
+         display: none;
     }
-
-    .swiper-slide {
-        height: 380px;
-    }
-
-    #footer-sm {
-        margin: 10px 0;
-        font-size: 1.5em;
-        font-weight: 300;
+    .menu-sm {
+        width: 150px;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .container {
-        position: relative;
-        width: 30px;
-        height: 30px;
-        background-size: 30px;
-        cursor: pointer;
-        z-index: 10000;
-
+    .swiper-slide {
+        height: 600px;
     }
 
-    .circle{
-        display: none;
+    .main-sm{
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    .container.active {
-        position: fixed;
-        right: 65px;
-        background-size: 25px;
+    #title{
+        text-align: center;
     }
 
-    .planos-sm{
-        justify-content:center;
+    .principal {
+        flex-direction: column;
+        display: flex;
+    }
+
+    #chamada {
+        font-size: 25px;
+        text-align: center;
+    }
+
+   
+    .swiper-slide {
+        height: 380px;
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .obtenha{
+        text-align: center;
+    }
+
+   .parte-texto{
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       margin-left: 5%;
+   }
+
+   .btn{
+       display:flex;
+       flex-direction: column;
+   }
+
+   .precos-sm{
+    display: flex;
+    flex-direction: column;
+   }
+
+   .plan-sm{
+       margin-left: auto;
+       margin-right: auto;
+   }
+}
+
+
+@media(max-width:900px){
+
+    .main-sm{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 20%;
     }
 
     .precos-sm{
         display: flex;
         flex-direction: column;
-        justify-content:center;
+        margin-left: 20%;
+       }
+    
+       .plan-sm{
+           margin-left: auto;
+           margin-right: auto;
+       }
+    
+       .parte-texto{
+       margin-left: -2%;
     }
 
+    .btn{
+        display:flex;
+        flex-direction: column;
+        margin-left: 7%;
+        
+    }
 
+    #footer-sm {
+        margin-left: 10%;
+    }
+ 
 }
+
+@media(max-width:600px){
+
+    .main-sm{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 65%;
+    }
+
+    .precos-sm{
+        display: flex;
+        flex-direction: column;
+        margin-left: 40%;
+       }
+    
+       .plan-sm{
+           margin-left: auto;
+           margin-right: auto;
+       }
+    
+       .parte-texto{
+       margin-left: -40%;
+    }
+
+    .btn{
+        display:flex;
+        flex-direction: column;
+        margin-left: 27%;
+        
+    }
+
+    #footer-sm {
+        margin-left: 30%;
+    }
+ 
+}
+
+@media(max-width:400px){
+
+    .main-sm{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 85%;
+    }
+
+    .precos-sm{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50%;
+       }
+    
+       .plan-sm{
+           margin-left: auto;
+           margin-right: auto;
+       }
+    
+       .parte-texto{
+       margin-left: -40%;
+    }
+
+    .btn{
+        display:flex;
+        flex-direction: column;
+        margin-left: 47%;
+        
+    }
+
+    #footer-sm {
+        margin-left: 60%;
+    }
+ 
+}
+
