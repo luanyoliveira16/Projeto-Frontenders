@@ -151,7 +151,7 @@ div#cores-container{
   display: none;
   flex-direction: row;
   position: absolute;
-  top: 18%;
+  top: 14%;
   left: 44%;
   z-index: 1;
   flex-wrap: wrap;
@@ -164,10 +164,15 @@ div#cores-container{
   transition: display 1.05s;
 }
 
+#opcao{
+  display: flex;
+  align-items: center;
+}
+
+
 div#cores-container.abrirfechar{
   display: flex;
 }
-
 
 div.cores{
   width: 35px;
@@ -175,5 +180,182 @@ div.cores{
   margin: auto;
 }
 
+#footer-sm{
+  position: absolute;
+}
 
+/*responsividade*/
+@media screen and (max-width:1500px){
+  .produto{
+    width:38%
+  }
+
+  div#cores-container{
+    top: 9.5%;
+    left: 43.5%;
+  }
+}
+
+@media screen and (max-width:1350px){
+  .produto{
+    width:40%
+  }
+
+  div#cores-container{
+    top: 10%;
+    left: 43%;
+  }
+}
+
+@media screen and (max-width:1200px){
+  #search-bar, #sair{
+    margin: 0.5% auto;
+  }
+
+  #search-bar{
+    width: 24%
+  }
+
+  div#cores-container{
+    top: 16%;
+    left: 42.5%;
+  }
+}
+
+@media screen and (max-width:1100px){
+  .produto{
+    width:42%
+  }
+
+  div#cores-container{
+    top: 17%;
+    left: 42%;
+  }
+}
+
+@media screen and (max-width:1000px){
+  .produto{
+    width:50%
+  }
+
+  #search-bar{
+    width: 27%
+  }
+
+  div#cores-container{
+    top: 9%;
+    left: 41.5%;
+  }
+}
+
+@media screen and (max-width: 850px){
+  .opcoes {
+    width: 90%;
+  }
+ 
+  .produto{
+    width:58%
+  }
+
+  #search-bar{
+    width: 30%
+  }
+
+  div#cores-container{
+    top: 9%;
+    left: 41.5%;
+    width:150px;
+     height: 130px;
+  }
   
+  div.cores{
+    width: 30px;
+    height: 28px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 790px){
+  #search-bar, #sair{
+    margin: 0.7% auto;
+  }
+
+  .opcoes {
+    width: 90%;
+  }
+
+  div#cores-container{
+    top: 9%;
+    left: 41%;
+  }
+
+  .produto{
+    width:70%
+  }
+}
+
+@media screen and (max-width: 680px){
+  .opcoes {
+    width: 95%;
+  }
+
+  div#cores-container{
+    top: 9.8%;
+    left: 39%;
+  }
+}  
+
+@media screen and (max-width: 600px){
+  div#cores-container{
+    top: 10.2%;
+    left: 37%;
+  }
+
+  .produto{
+    width:80%
+  }
+}
+
+@media screen and (max-width: 500px){
+  #search-bar{
+    width: 33%;
+  }
+}
+
+@media screen and (max-width: 450px){
+  #search-bar, #sair{
+    margin: 0.9% auto;
+  }
+
+  #search-bar{
+    width: 35%;
+  }
+
+  .opcoes{
+    width: 100%;
+  }
+
+  div#cores-container{
+    top: 11.5%;
+    left: 35%;
+  }
+
+  .produto{
+    width:85%
+  }
+}
+
+@media screen and (max-width: 400px){
+  #search-bar{
+    width: 40%;
+  }
+
+  div#cores-container{
+    top: 12%;
+    left: 35%;
+  }
+
+  .produto{
+    width:90%
+  }
+}

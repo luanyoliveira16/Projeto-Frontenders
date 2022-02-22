@@ -1,21 +1,10 @@
-.botao{
-    margin-right: 5%;
-}
-
 .container-login{
     background-color: #F2668B;
-    display: flex;
-    margin: 7rem auto;
-    width: 500px;
+    display: fit-content;
+    margin: 7.6% auto 0;
+    width: 40%;
     border-radius: 20px;
     height: auto;
-}
-
-#forms-login{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 h2{
@@ -23,29 +12,34 @@ h2{
     font-size: 35px;
     color: white;
     text-align: center;
-    margin-top: 6px;
-    margin-bottom: 6px;
+    align-items: center;
 }
 
 hr{
-    width: 500px;
+    width: 100%;
+}
+
+#forms-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .inputs{
     display: flex;
     flex-direction: column;
+    width: 90%;
     text-align: left;
 }
 
 #email3, #input-pass, #btn-login, .links-login.inputs{
     margin-bottom: 13px;
-
 }
 
 #email3, #input-pass{
     background-color: #011C26;
-    width: 350px;
-    padding: 5px;
+    width: 100%;
+    padding: 4px;
     height: 32px;
     border: none;
     color: white;
@@ -58,7 +52,6 @@ hr{
     border: none; 
     color: white;
 }
-
 
 .btn-login{
     height: 32px;
@@ -84,6 +77,88 @@ a:hover{
 }
 
 #footer-sm {
-    margin-top: 3%;
+    margin-top:12.5%;
+}
 
+/*responsividade*/
+@media screen and (max-width:1200px){
+    main{
+      justify-content: center;
+    }
+
+    .container-login{
+        width: 32%;
+        margin: 9% auto 0;
+    }
+
+    #email3, #input-pass{
+        width:100%
+    }
+
+    #footer-sm{
+        margin-top: 8%;
+        font-size: 80%;
+    }
+
+    .rodape {
+        width: 20px;
+        height: 60%;
+    }
+}
+
+@media screen and (max-width:1100px){
+    .container-login{
+        width:33%;
+        margin: 9% auto 0;
+    }
+
+    hr{
+        width: 100%;
+    }
+
+    #email2{
+        width: 95%;
+        margin-bottom: 2%;
+    }
+
+    #footer-sm{
+        margin-top: 14%;
+        font-size: 80%;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:900px){
+    .container-login{
+        width:34%;
+    }
+
+    #footer-sm{
+        margin-top: 18%;
+    }
+}
+
+
+@media screen and (max-width: 750px){
+    .container-login{
+        width:36%;
+    }
+}
+
+ @media screen and (max-width: 650px){
+        .container-login{
+            width:40%;
+        }
+}   
+
+@media screen and (max-width: 500px){
+    .container-login{
+        width:42%;
+    }
+} 
+
+@media screen and (max-width: 450px){
+    .container-login{
+        width:55%;
+    }
 }

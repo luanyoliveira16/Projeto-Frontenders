@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 .cabecalho{
     background-color: #161616;
     display: flex;
@@ -22,6 +21,23 @@ h1 {
     margin-left: 2.22em;
 }
 
+h1:hover{
+    font-size: 60px;
+    color: #F249B7;
+}
+
+.botao{
+    margin-right: 8.1%;
+}
+
+.menu-sm {
+    margin: 10px;
+    font-size: 25px;
+    color: black;
+    box-shadow: 3px 3px #F249B7, 0.5em 0 0.4em;
+    font-family: BEBAS;
+}
+
 body{
     background-color: black;
     min-height: 100%;
@@ -33,14 +49,66 @@ body{
     font-weight: bold;
     text-align: center;
     width: 100%;
-    height: 30%;
+    height: 7%;
     color: white;
     position:fixed;
-    align-items: baseline;
+}
+
+#direitos{
+    margin-bottom: 0;
+    font-size: 100%;
+}
+
+.menu-rodape{
+    margin-top: 0;
 }
 
 .rodape {
     width: 30px;
     height: 70%;
+}
+
+/*responsividade*/
+@media screen and (max-width:1200px){
+    #footer-sm{
+        margin-top: 8%;
+        font-size: 80%;
+    }
+
+    .rodape {
+        width: 20px;
+        height: 60%;
+    }
+
+}
+
+
+@media screen and (max-width:1200px){
+    .cabecalho, .botao, main{
+        display: flex;   
+    }
+
+    .cabecalho{
+        flex-direction: column;
+        justify-content: center;
+        height: auto;   
+    }
+
+    h1{
+        margin: 0 auto;
+    }
+
+    .botao{
+        margin: 0 2%;
+    }
+
+    .menu-sm{
+        width: 80%;
+    }
+
+    #footer-sm{
+        font-size: 80%;
+        justify-content: center;
+    }
 }
 

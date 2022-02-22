@@ -1,12 +1,8 @@
-.botao{
-    margin-right: 5%;
-}
-
 .container-cadastro{
     background-color: #F2668B;
-    display: flex;
-    margin: 4rem auto;
-    width: 600px;
+    display: fit-content;
+    margin: 3% auto;
+    width: 40%;
     border-radius: 20px;
     height: auto;
 }
@@ -23,12 +19,10 @@ h2{
     font-size: 35px;
     color: white;
     text-align: center;
-    margin-top: 13px;
-    margin-bottom: 13px;
 }
 
 hr{
-    width: 600px;
+    width: 100%;
 }
 
 label{
@@ -71,32 +65,32 @@ label{
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
 }
 
 #docschild1, #docschild2{
-    display: flex;
+    display: fit-content;
     text-align: left;
-    width: 50%; 
+    width: 40%; 
     flex-wrap: wrap;
-   justify-content: space-between;
 }
 
 #docschild2{
-    padding-left: 8%;
+    margin-left: 18%;
 }
 
+#cpf-mask, #rg-mask{
+    width: 81%;
+}
 
-.endereco1{
+.endereco1, .endereco2, .endereco3 {
     display: flex;
     width: 100%;
     flex-direction: row;
-    justify-content: space-around;
     margin-top: 5px;
 }
 
-.endereco1 input{
-    width: 90%;
+.endereco1 input, .endereco2 input, .endereco3 input{
+    width: 100%;
 }
 
 .child1, .child2, .child3, .child4, .child5, .child6, .child7{
@@ -105,25 +99,24 @@ label{
 }
 
 .child1{
-    width: 28%;
+    width: 30%;
     display: flex;
-    justify-content: flex-start;
 }
 
 .child2{
-    width: 43%;
-}
-
-.child3{
     width: 30%;
 }
 
+.child3{
+    width: 40%;
+}
+
 .child4{
-    width: 75%;
+    width: 70%;
 }
 
 .child5{
-    width: 25%;
+    width: 30%;
 }
 
 .child6{
@@ -143,4 +136,170 @@ label{
     font-family: BEBAS;
     margin: 20px auto;
 }
+#footer-sm{
+    margin-top: 5%;
+    position: absolute;
+}
 
+/*responsividade*/
+@media screen and (max-width:1500px){
+    .container-cadastro{
+        width: 32%;
+        margin: 3% auto 0;
+    }
+
+    #docschild2{
+        margin-left: 15%;
+    }
+
+    .endereco1{
+        flex-wrap: wrap;
+    }
+
+    .endereco1 input{
+        flex-wrap: 100%;
+    }
+
+    .child1{
+        width: 40%
+    }
+    
+    .child2{
+        width: 60%
+    }
+    
+    .child3{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1350px){
+    .container-cadastro{
+        width: 34%;
+    }
+
+    #docschild2{
+        margin-left: 14%;
+    }
+}
+
+@media screen and (max-width:1100px){
+    .container-cadastro{
+        width: 35%;
+    }
+
+    #docschild2{
+        margin-left: 13%;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .container-cadastro{
+        width: 40%;
+    }
+
+    #docschild2{
+        margin-left: 12%;
+    }
+
+    .child4{
+        width: 63%;
+    }
+    
+    .child5{
+        width: 37%;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .container-cadastro{
+        width: 45%;
+    }
+
+    .docs{
+        display: fit-content;
+        flex-direction: column;
+    }
+
+    #docschild1, #docschild2{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .child4{
+        width: 63%;
+    }
+    
+    .child5{
+        width: 37%;
+    }
+
+    .endereco3{
+        flex-direction: column;
+    }
+
+    .child6, .child7{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .container-cadastro{
+        width: 50%;
+    }
+
+    #docschild1, #docschild2{
+        width: 95%;
+        margin-left: 0;
+    }
+
+    .endereco1{
+        flex-direction: column;
+    }
+
+    .child1, .child2, .child3{
+        width: 100%;
+    }
+
+    .child4{
+        width: 65%;
+    }
+    
+    .child5{
+        width: 35%;
+    }
+
+    .endereco2{
+        flex-direction: column;
+    }
+    
+    .child4{
+        width: 100%;
+    }
+        
+    .child5{
+         width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .container-cadastro{
+        width: 55%;
+    }
+
+    #docschild1, #docschild2{
+        width: 93%;
+        margin-left: 0;
+    }
+}  
+
+@media screen and (max-width: 400px){
+    .container-cadastro{
+        width: 59%;
+    }
+
+    #docschild1, #docschild2{
+        width: 91%;
+        margin-left: 0;
+    }
+}
