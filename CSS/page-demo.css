@@ -15,7 +15,7 @@
     align-items: left;
     width: 60%;
     height: auto;
-    margin-top: 2.5em;
+    margin-top: 5%;
 }
 
 h2, h5{
@@ -35,10 +35,10 @@ h2{
     display: flex;
     flex-direction: column;
     justify-content:center;
-    width: 35%;
-    height: 120px;
+    width: 40%;
     height: auto;
     align-items: center;
+    margin-top: 5%;
 }
 
 .caixa2 li{
@@ -52,23 +52,190 @@ h2{
 .botoes{
     display: flex;
     flex-direction: row;
+    width: 100%;
+    justify-content: center;
 }
 
 #botoes{
     height: 32px;
-    width: 70px;
+    width: 20%;
     font-size: 19px;
     color: black;
     box-shadow: 3px 3px #F249B7, 0.5em 0 0.4em;
     font-family: BEBAS;
-    margin: 7px;
+    margin: 4%;
 }
 
 .botoes img{
-    margin: 7px 0 0 10px;
-    height: 32px;
+    margin: 4% 4% 0;
+    height: 30px;
 }
 
 .botoes img:hover{
     transform: scale(1.10);
 }
+
+#footer-sm{
+    position: relative;
+}
+
+/*responsividade*/ 
+@media screen and (max-width:1920px){
+    div#cores-container{
+      top: 18%;
+      left: 45%;
+    }
+}
+
+@media screen and (max-width:1500px){
+    div#cores-container{
+      top: 20%;
+      left: 43.6%;
+    }
+}
+  
+@media screen and (max-width:1350px){  
+    div#cores-container{
+      top: 22%;
+      left: 43.2%;
+    }
+  }
+  
+  @media screen and (max-width:1200px){
+    #search-bar, #sair{
+      margin: 0.5% auto;
+    }
+  
+    #search-bar{
+      width: 24%
+    }
+  
+    div#cores-container{
+      top: 30%;
+      left: 42.5%;
+    }
+
+    #sair{
+        margin: 0.5% auto;
+    }  
+}
+  
+@media screen and (max-width:1100px){
+    div#cores-container{
+      top: 31%;
+      left: 42%;
+    }
+    
+    .caixa1{
+        width: 70%;
+    }
+    
+    .caixa2{
+        margin-top: 10%;
+        width: 35%
+    }  
+}
+  
+@media screen and (max-width:1000px){
+    #search-bar{
+      width: 27%
+    }
+  
+    div#cores-container{
+      top: 20%;
+      left: 41%;
+    }
+
+    .container-fashion{
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .caixa1,.caixa2{
+        width: 100%;
+    }
+
+    .caixa2{
+        margin: 3% auto;
+    }
+}
+  
+@media screen and (max-width: 850px){
+    .opcoes {
+      width: 90%;
+    }
+  
+    #search-bar{
+      width: 27%
+    }
+  
+    div#cores-container{
+      top: 20%;
+      left: 41%;
+      width:150px;
+       height: 130px;
+    }
+    
+    div.cores{
+      width: 30px;
+      height: 28px;
+      margin: auto;
+    }
+  }
+  
+  @media screen and (max-width: 790px){
+    #search-bar, #sair{
+      margin: 0.7% auto;
+    }
+  
+    .opcoes {
+      width: 90%;
+    }
+  
+    div#cores-container{
+      top: 21%;
+      left: 41%;
+    }
+  }
+  
+  @media screen and (max-width: 600px){
+    div#cores-container{
+      top: 22%;
+      left: 39%;
+    }
+  }
+  
+  @media screen and (max-width: 520px){
+    #search-bar{
+      width: 33%;
+    }
+    div#cores-container{
+        top: 23%;
+        left: 37%;
+      }
+}
+  
+@media screen and (max-width: 450px){
+    #search-bar, #sair{
+      margin: 0.9% auto;
+    }
+  
+    #search-bar{
+      width: 35%;
+    }
+
+    .opcoes{
+        width: 100%;
+    }
+
+    div#cores-container{
+        top: 24%;
+        left: 35%;
+      }
+}
+  
+@media screen and (max-width: 400px){
+    #search-bar{
+      width: 40%;
+    }
+  }
