@@ -70,21 +70,7 @@ body{
 
 /*responsividade*/
 @media screen and (max-width:1200px){
-    #footer-sm{
-        margin-top: 8%;
-        font-size: 80%;
-    }
-
-    .rodape {
-        width: 20px;
-        height: 60%;
-    }
-
-}
-
-
-@media screen and (max-width:1200px){
-    .cabecalho, .botao, main{
+   .cabecalho, .botao, main{
         display: flex;   
     }
 
@@ -107,8 +93,14 @@ body{
     }
 
     #footer-sm{
+        margin-top: 8%;
         font-size: 80%;
         justify-content: center;
+    }
+
+    .rodape {
+        width: 20px;
+        height: 60%;
     }
 }
 
