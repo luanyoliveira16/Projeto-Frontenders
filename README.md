@@ -4,7 +4,7 @@
 Projeto final do segundo módulo do curso de desenvolvimento *full stack* da Resilia Educação, onde criamos um site de venda de layouts para desenvolvedores front-end.
 
 ### Status do projeto ###
-Em construção...
+Concluído
 
 ### Funcionalidades e demonstração do projeto ###
 
@@ -32,7 +32,7 @@ Pesquisa de layouts por:
 
 ### Acesso ao projeto ###
 
-Pode ser acessado via mobile devido a responsividade.
+Pode ser acessado via mobile devido a responsividade: https://izadorafsantos.github.io/Projeto-Frontenders/
 //ADD LINK//
 
 ### Tecnologias utilizadas ###
