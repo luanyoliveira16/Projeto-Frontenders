@@ -32,7 +32,7 @@ Pesquisa de layouts por:
 
 ### Acesso ao projeto ###
 
-Pode ser acessado via mobile devido a responsividade: https://izadorafsantos.github.io/Projeto-Frontenders/
+Pode ser acessado via mobile [aqui](https://izadorafsantos.github.io/Projeto-Frontenders/)
 
 ### Tecnologias utilizadas ###
 
