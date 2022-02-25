@@ -33,7 +33,6 @@ Pesquisa de layouts por:
 ### Acesso ao projeto ###
 
 Pode ser acessado via mobile devido a responsividade: https://izadorafsantos.github.io/Projeto-Frontenders/
-//ADD LINK//
 
 ### Tecnologias utilizadas ###
 
@@ -49,13 +48,13 @@ Pode ser acessado via mobile devido a responsividade: https://izadorafsantos.git
 ![nilton](https://user-images.githubusercontent.com/92602538/153926453-9343da27-7004-4ce7-8336-0b9e443daa4e.jpg)
 ![suelen](https://user-images.githubusercontent.com/92602538/153926545-cb82a8fc-12c1-46e7-bb5b-394a61810edc.jpg)
 
-https://github.com/izadorafsantos
+- [Izadora Ferreira](https://github.com/izadorafsantos)
 
-https://github.com/luanyoliveira16
+- [Luany Oliveira](https://github.com/luanyoliveira16)
 
-https://github.com/NiltonCortesJr
+- [Nilton Júnior](https://github.com/NiltonCortesJr)
 
-https://github.com/suelenrechebrito
+- [Suelen Reche](https://github.com/suelenrechebrito)
 
 
 
