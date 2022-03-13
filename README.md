@@ -1,7 +1,8 @@
-# Projeto-Frontenders
+# Projeto Frontenders :computer: 🎨
 
-### Descrição do projeto ###
+### Sobre do projeto ###
 Projeto final do segundo módulo do curso de desenvolvimento *full stack* da Resilia Educação, onde criamos um site de venda de layouts para desenvolvedores front-end.
+
 
 ### Status do projeto ###
 Concluído
