@@ -1,13 +1,18 @@
 # Projeto Frontenders :computer: 🎨
 
 ### Sobre do projeto ###
-Projeto final do segundo módulo do curso de desenvolvimento *full stack* da Resilia Educação, onde criamos um site de venda de layouts para desenvolvedores front-end.
+Projeto final do segundo módulo do curso de desenvolvimento *full stack* da Resilia Educação, onde criamos um site de venda de layouts para desenvolvedores front-end de acordo com os seguintes requisitos:
+* Página inicial com uma breve descrição so serviço;
+* Chamada para a inscrição na lista de espera;
+* Apresentar os planos de assinatura;
+* Página de cadastro na lista de espera;
+* Página de contato dos alunos envolvidos no projeto.
 
 
 ### Status do projeto ###
 Concluído
 
-### Funcionalidades e demonstração do projeto ###
+### Funcionalidades do projeto ###
 
 Acesso ao conteúdo por meio de cadastro e login.
 
@@ -30,6 +35,9 @@ Pesquisa de layouts por:
     * Informativo
     * Entretenimento
 1. Paletas de cores
+
+### Demonstração da aplicação ###
+![Vídeo_](https://user-images.githubusercontent.com/92602538/158082565-eaaf07a8-fccc-4cdd-98f5-cf3e200f03c2.gif)
 
 ### Acesso ao projeto ###
 
